@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&family=Roboto+Condensed:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+ border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set the color of the handle on hover */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.user-list-container{
+  width: 30%;
+  
+}
+
+.main-body{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+  height: 100vh;
+}
+.user-list-container-list{
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+.user-list-container-list img{
+  border-radius: 50%;
+}
+
+.user-result-container{
+  box-shadow: 1px 2px 10px #e1e3ec;
+  width: 40%;
+}
+
+.shimmer-container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px
+}
+
+.shimmer-container .text{
+  width: 80%;
+}
+
+
+/* NoUsers template message css */
+.empty-state {
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 4px;
+}
+.empty-state__content {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.empty-state__content .empty-state__icon {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 200px;
+  justify-content: center;
+  background-color: #f7fafc;
+}
+.empty-state__content .empty-state__icon img {
+  width: 170px;
+}
+.empty-state__content .empty-state__message {
+  color: #38a169;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0.85rem;
+}
+.empty-state__content .empty-state__help {
+  color: #a2a5b9;
+  font-size: 0.875rem;
+}
+.credit {
+  color: #a2a5b9;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.credit a {
+  color: #444;
+}
+
+/* 404 error page css */
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
