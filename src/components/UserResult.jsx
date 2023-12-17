@@ -70,7 +70,7 @@ const UserResult = ({selectedUser}) => {
             <TextField
               variant="outlined"
               fullWidth
-              value={inputValue.profile.firstName}
+              value={inputValue.profile.firstName + " " + inputValue.profile.lastName}
               style={{ marginBottom: "16px" }}
               InputProps={{
                 readOnly: true, // Make the input read-only
@@ -84,7 +84,7 @@ const UserResult = ({selectedUser}) => {
             <TextField
               variant="outlined"
               fullWidth
-              value={inputValue.profile.lastName}
+              value={inputValue.jobTitle}
               style={{ marginBottom: "16px" }}
               InputProps={{
                 readOnly: true, // Make the input read-only
